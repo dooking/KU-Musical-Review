@@ -23,6 +23,7 @@ export const SearchContainer = styled.div`
     justify-content: center;
     margin: 20px;
     flex-direction: column;
+    margin-top: 0px;
 `;
 
 export const SearchBox = styled.input`
@@ -34,6 +35,7 @@ export const SearchBox = styled.input`
     font-size: 14px;
     font-weight: bold;
     place-self: center;
+    height: 40px;
 `;
 
 export const MusicalContainer = styled.div`

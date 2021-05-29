@@ -22,7 +22,6 @@ function Home() {
     const searchHandler = (e) => {
         setSearch(e.target.value)
     }
-    
     return (
 		<S.MainContainer>
             <S.SearchContainer>

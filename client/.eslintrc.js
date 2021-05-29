@@ -25,6 +25,7 @@ module.exports = {
     "import/prefer-default-export": 0,
     "no-unused-vars":1,
     "react/no-array-index-key":0,
-    "arrow-body-style": 0
+    "arrow-body-style": 0,
+    "react/jsx-props-no-spreading": 0
   },
 };
