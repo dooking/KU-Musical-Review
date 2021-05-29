@@ -6,15 +6,8 @@ export const NavBarWrapper = styled.div`
 `;
 
 export const Title = styled.div`
-  width: 20%;
-`;
-
-export const MenuWrapper = styled.div`
-  width: 80%;
-  display: flex;
-  justify-content: space-around;
-`;
-export const MenuItem = styled.a`
-  border: 1px solid black;
-  padding: 10px;
+    padding: 30px;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: white;
 `;
