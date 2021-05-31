@@ -1,8 +1,9 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
-import About from '../components/musical';
+import Musical from '../components/musical';
 
-function AboutPage() {
-  return <About />;
+function MusicalPage({ match }) {
+  return <Musical id={match.params.id} />;
 }
 
-export default AboutPage;
+export default MusicalPage;
