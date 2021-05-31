@@ -13,7 +13,7 @@ function App() {
       <Navbar/>
       <Switch>
         <Route path="/" exact component={HomePage} />
-        <Route path="/musical" exact component={MusicalPage} />
+        <Route path="/musical/:id" exact component={MusicalPage} />
         <Route path="/search" exact component={SearchPage} />
       </Switch>
     </div>
@@ -29,7 +29,7 @@ const GlobalStyle = createGlobalStyle`
   }
   body {
     height: 700px;
-    background: #61248C;
+    background: #0F0515;
   }
   a {
     text-decoration: none;
